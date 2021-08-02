@@ -1,25 +1,26 @@
 {
-	"name": "@rbxts/t",
-	"version": "2.1.4",
-	"description": "A Runtime Type Checker for Roblox",
-	"main": "lib/ts.lua",
-	"types": "lib/t.d.ts",
+	"name": "@quentystudios/t",
+	"version": "1.2.5",
+	"description": "A Runtime Type Checker for Roblox (forked to provide Lua version)",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/osyrisrblx/t.git"
+		"url": "git+https://github.com/quentystudios/t.git"
 	},
 	"keywords": [],
 	"author": "osyris",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/osyrisrblx/t/issues"
+		"url": "https://github.com/quentystudios/t/issues"
 	},
-	"homepage": "https://github.com/osyrisrblx/t#readme",
+	"homepage": "https://github.com/quentystudios/t#readme",
 	"devDependencies": {
 		"@rbxts/types": "^1.0.469"
 	},
 	"files": [
-		"lib/ts.lua",
-		"lib/t.d.ts"
-	]
+		"default.project.json",
+		"lib/init.lua"
+	],
+	"publishConfig": {
+	    "registry": "https://npm.pkg.github.com/"
+	}
 }
