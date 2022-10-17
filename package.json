@@ -1,6 +1,6 @@
 {
 	"name": "@quentystudios/t",
-	"version": "1.2.5",
+	"version": "3.0.0",
 	"description": "A Runtime Type Checker for Roblox (forked to provide Lua version)",
 	"repository": {
 		"type": "git",
@@ -14,7 +14,8 @@
 	},
 	"homepage": "https://github.com/quentystudios/t#readme",
 	"devDependencies": {
-		"@rbxts/types": "^1.0.469"
+		"@rbxts/compiler-types": "^1.2.7-types.0",
+		"@rbxts/types": "^1.0.544"
 	},
 	"files": [
 		"default.project.json",
