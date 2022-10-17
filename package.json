@@ -17,11 +17,12 @@
 		"@rbxts/compiler-types": "^1.2.7-types.0",
 		"@rbxts/types": "^1.0.544"
 	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"files": [
 		"default.project.json",
 		"lib/init.lua"
-	],
-	"publishConfig": {
-	    "registry": "https://npm.pkg.github.com/"
-	}
+	]
 }
